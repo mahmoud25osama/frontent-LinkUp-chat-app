@@ -2,10 +2,10 @@ import { BrowserRouter, Routes, Route, Navigate } from 'react-router-dom'
 import { QueryClient, QueryClientProvider } from '@tanstack/react-query'
 import { AuthProvider } from './context/AuthContext'
 import { SocketProvider } from './context/SocketContext'
-import ProtectedRoute from './components/ProtectedRoute'
-import Login from './pages/Login'
-import Register from './pages/Register'
-import Chat from './pages/Chat'
+import ProtectedRoute from './components/ProtectedRoute.jsx'
+import Login from './pages/Login.jsx'
+import Register from './pages/Register.jsx'
+import Chat from './pages/Chat.jsx'
 
 const queryClient = new QueryClient({
     defaultOptions: {
