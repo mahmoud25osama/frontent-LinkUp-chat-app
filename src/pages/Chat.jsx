@@ -60,20 +60,9 @@ const Chat = () => {
     return (
         <div className="h-screen flex flex-col bg-gray-100">
             {/* Header */}
-            <header className="bg-primary-600 text-white px-4 py-3 shadow-lg">
+            <header className="bg-gradient-to-r from-sky-600 to-blue-600 text-white px-4 py-3 shadow-lg">
                 <div className="flex items-center justify-between">
                     <div className="flex items-center gap-3">
-                        {/* <div className="w-10 h-10 bg-white/20 rounded-full flex items-center justify-center font-bold">
-                            {user?.username?.charAt(0).toUpperCase()}
-                        </div>
-                        <div>
-                            <h1 className="font-semibold text-lg">
-                                تطبيق الدردشة
-                            </h1>
-                            <p className="text-xs text-primary-100">
-                                {user?.username}
-                            </p>
-                        </div> */}
                         <Logo size="sm" showText={true} />
                     </div>
                     <button
